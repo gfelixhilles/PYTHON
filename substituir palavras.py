@@ -1,0 +1,5 @@
+fr1 = input("Escreva uma frase:")
+p1 = input("Escreva a palavra que será substituída:")
+p2 = input("Escreva a palavra que vai substituir:")
+fr2 = fr1.replace(p1, p2)
+print(fr2)
